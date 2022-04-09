@@ -1,0 +1,68 @@
+body {
+  background: black;
+}
+
+.container {
+  width: 60vw;
+  height: 100vh;
+  padding: 2rem;
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+  background: white;
+  margin: 0 auto;
+}
+
+.input-area-wrapper {
+  width: 100%;
+  margin: 1rem 0;
+  display:flex;
+  justify-content:space-between;
+}
+
+.input-area {
+  width: 80%;
+  height: 2rem;
+  padding-left: 0.5rem
+}
+
+.btn-submit {
+  width: 15%;
+}
+
+.todo-wrapper {
+  width: 100%;
+  padding: 0 6rem;
+}
+
+.todo-list {
+  background: #ccc;
+  margin: 1rem 0;
+  padding: 0.5rem 1rem;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  border-radius:2px;
+}
+
+#todo-text {
+  width: 100%;
+  margin-left: 1rem;
+}
+
+.btn-delete {
+  width: 1rem;
+  border: none;
+  border-radius: 2px;
+}
+
+.btn-delete:hover {
+  background: red;
+}
+
+.todo-done {
+  text-decoration:line-through;
+  opacity: 30%;
+}
+
